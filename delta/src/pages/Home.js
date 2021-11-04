@@ -1,12 +1,11 @@
 import React from 'react'
 
-// Hero, Features, Content , Carousel  
+// Hero, Features, Content , Carousel
+import Hero from '../components/Hero/Hero';
 
 const Home = () => {
   return(
-    <div>
-      Home Page
-    </div>
+    <Hero />
   )
 }
 
