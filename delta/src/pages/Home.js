@@ -2,11 +2,22 @@ import React from 'react'
 
 // Hero, Features, Content , Carousel
 import Hero from '../components/Hero/Hero';
+import Carousel from '../components/Carousel/Carousel';
+import { Content } from '../components/Content/Content';
+import Features from '../components/Features/Features';
+import { heroOne, heroTwo, heroThree } from '../data/HeroData'
 
 const Home = () => {
   return(
-    <Hero />
-  )
-}
+    <>
+			<Hero />
+			<Features />
+			<Content {...heroOne} />
+			<Content {...heroTwo} />
+			<Content {...heroThree} />
+      <Carousel />
+		</>
+  );
+};
 
 export default Home;

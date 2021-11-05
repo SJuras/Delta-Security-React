@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Switch } from "react-router";
 import Navbar from './components/Navbar/Navbar';
 
+
 // pages
 import Home from './pages/Home';
 import PricingPage from './pages/PricingPage';
