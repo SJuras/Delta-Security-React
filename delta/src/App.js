@@ -3,7 +3,7 @@ import GlobalStyle from './globalStyles';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Switch } from "react-router";
 import Navbar from './components/Navbar/Navbar';
-
+import Footer from './components/Footer/Footer'
 
 // pages
 import Home from './pages/Home';
@@ -21,6 +21,7 @@ function App() {
         <Route path="/signup" exact component={SignupPage} />
         <Route path="/pricing" exact component={PricingPage} />
       </Switch>
+      <Footer />
     </Router>
   );
 }
